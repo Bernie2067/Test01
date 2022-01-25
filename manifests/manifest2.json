@@ -1,0 +1,83 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Bernie2067.github.io/Test01/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Testmanifest",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Een testmanifest",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Bernie's Collection",
+  "sequences" : [ {
+    "@id" : "http://1a3a8638-2e96-4d1f-b7dc-f3ae522064be",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://f31eba4c-fcf8-4c34-88a8-aa698070ca6a",
+      "@type" : "sc:Canvas",
+      "label" : "Waar is Vos?",
+      "height" : 5316,
+      "width" : 7087,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://992aa014-7fde-46f5-bd94-3ec5d342b7a1",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://bibpro.vub.ac.be/iguana/iiif/image//installer/images/3_470719_TIFF/3_469682.tif/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://bibpro.vub.ac.be/iguana/iiif/image//installer/images/3_470719_TIFF/3_469682.tif",
+            "profile" : [ "http://iiif.io/api/image/2/level1.json", {
+              "formats" : [ "jpg" ],
+              "qualities" : [ "native", "color", "gray" ],
+              "supports" : [ "regionByPct", "sizeByForcedWh", "sizeByWh", "sizeAboveFull", "rotationBy90s", "mirroring", "gray" ]
+            } ]
+          },
+          "height" : 5316,
+          "width" : 7087
+        },
+        "on" : "http://f31eba4c-fcf8-4c34-88a8-aa698070ca6a"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://5a09d999-ee1a-4cc7-90b0-c15e988e04d9",
+      "@type" : "sc:Canvas",
+      "label" : "Moon",
+      "height" : 24000,
+      "width" : 24000,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://e39c510f-854d-4f21-a363-dedbab30e49b",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://bibpro.vub.ac.be/iguana/iiif/image//installer/images/3_470720_TIFF/wac_nearside.tif/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://bibpro.vub.ac.be/iguana/iiif/image//installer/images/3_470720_TIFF/wac_nearside.tif",
+            "profile" : [ "http://iiif.io/api/image/2/level1.json", {
+              "formats" : [ "jpg" ],
+              "qualities" : [ "native", "color", "gray" ],
+              "supports" : [ "regionByPct", "sizeByForcedWh", "sizeByWh", "sizeAboveFull", "rotationBy90s", "mirroring", "gray" ]
+            } ]
+          },
+          "height" : 24000,
+          "width" : 24000
+        },
+        "on" : "http://5a09d999-ee1a-4cc7-90b0-c15e988e04d9"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
