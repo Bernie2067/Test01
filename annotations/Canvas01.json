@@ -1,0 +1,72 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Van Eyck swimming pool",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Van Eyck swimming pool</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/98408118",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2022-01-27T13:14:37",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1643289277786",
+    "dcterms:modified" : "2022-01-27T13:14:37",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://Bernie2067.github.io/Test01/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=4885,1216,844,488"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4884.97712,1216.00871h421.80174v0h421.80174v244.21569v244.21569h-421.80174h-421.80174v-244.21569z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_71f3f4c8-8de4-4d80-8ecc-9765af04bdf5\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://f31eba4c-fcf8-4c34-88a8-aa698070ca6a"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Luc De Vos",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Luc De Vos</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/98408118",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2022-01-27T13:15:18",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1643289318118",
+    "dcterms:modified" : "2022-01-27T13:15:18",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://Bernie2067.github.io/Test01/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=3735,1749,334,519"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M3734.52832,1748.76688h167.00436v0h167.00436v259.65795v259.65795h-167.00436h-167.00436v-259.65795z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_b95392b9-487d-4994-98f6-efc9d618ce95\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://f31eba4c-fcf8-4c34-88a8-aa698070ca6a"
+    } ]
+  } ],
+  "@id" : "https://Bernie2067.github.io/Test01/annotations/Canvas01.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
