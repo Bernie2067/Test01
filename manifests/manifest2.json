@@ -3,6 +3,11 @@
   "@id" : "https://Bernie2067.github.io/Test01/manifests/manifest2.json",
   "@type" : "sc:Manifest",
   "label" : "Testmanifest",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/98408118/71e21c1da51752973191ef3343aa38e7/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  },
   "metadata" : [ ],
   "description" : [ {
     "@value" : "Een testmanifest",
@@ -17,11 +22,6 @@
       "@value" : "Normal Sequence",
       "@language" : "en"
     } ],
-    "service" : {
-      "profile" : "http://iiif.io/api/search/0/search",
-      "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/98408118/71e21c1da51752973191ef3343aa38e7/search",
-      "@context" : "http://iiif.io/api/search/0/context.json"
-    },
     "canvases" : [ {
       "@id" : "http://f31eba4c-fcf8-4c34-88a8-aa698070ca6a",
       "@type" : "sc:Canvas",
