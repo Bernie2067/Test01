@@ -1,6 +1,6 @@
 {
   "@type" : "sc:Layer",
-  "otherContent" : [ "https://Bernie2067.github.io/Test01/annotations/Canvas01.json" ],
+  "otherContent" : [ "https://Bernie2067.github.io/Test01/annotations/Canvas01.json", "https://Bernie2067.github.io/Test01/annotations/Canvas02.json" ],
   "@id" : "https://Bernie2067.github.io/Test01/annotations/collection.json",
   "label" : "All annotations loaded in Bernie2067/Test01 project",
   "@context" : "http://iiif.io/api/presentation/2/context.json"
