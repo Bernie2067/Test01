@@ -17,6 +17,11 @@
       "@value" : "Normal Sequence",
       "@language" : "en"
     } ],
+    "service" : {
+      "profile" : "http://iiif.io/api/search/0/search",
+      "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/98408118/71e21c1da51752973191ef3343aa38e7/search",
+      "@context" : "http://iiif.io/api/search/0/context.json"
+    },
     "canvases" : [ {
       "@id" : "http://f31eba4c-fcf8-4c34-88a8-aa698070ca6a",
       "@type" : "sc:Canvas",
@@ -45,6 +50,11 @@
           "width" : 7087
         },
         "on" : "http://f31eba4c-fcf8-4c34-88a8-aa698070ca6a"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://bernie2067.github.io/Test01/annotations/Canvas01.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
       } ],
       "related" : ""
     }, {
@@ -75,6 +85,11 @@
           "width" : 24000
         },
         "on" : "http://5a09d999-ee1a-4cc7-90b0-c15e988e04d9"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://bernie2067.github.io/Test01/annotations/Canvas02.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
       } ],
       "related" : ""
     } ]
